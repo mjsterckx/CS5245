@@ -1,0 +1,5 @@
+r1 = input('Enter r1: ')
+r2 = input('Enter r2: ')
+r3 = input('Enter r3: ')
+rt = 1 / (1 / float(r1) + 1 / float(r2) + 1 / float(r3))
+print('The parallel resistance of ' + str(float(r1)) + ', ' + str(float(r2)) + ', and', float(r3), 'ohms is', rt, 'ohms.')
