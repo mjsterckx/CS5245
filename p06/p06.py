@@ -133,7 +133,6 @@ class Zoo:
             print('-------------------')
 
 
-# TODO: main function
 def main():
     zoo = Zoo('zoo')
     zoo.add_animal(Dog('dan the dog'))
